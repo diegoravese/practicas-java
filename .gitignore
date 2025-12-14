@@ -1,0 +1,32 @@
+# --- Archivos Compilados (Basura) ---
+*.class
+*.log
+*.jar
+*.war
+
+# --- Carpetas de Construcción (Maven / Gradle) ---
+target/
+build/
+bin/
+dist/
+
+# --- NetBeans (Proyectos antiguos) ---
+nbproject/private/
+build.xml
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# --- Visual Studio Code ---
+.vscode/
+.history/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.iws
+
+# --- Archivos de Sistema (Ubuntu / Windows / Mac) ---
+.DS_Store
+Thumbs.db
