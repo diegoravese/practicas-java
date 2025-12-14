@@ -2,6 +2,10 @@ package com.davante.app.tema02;
 
 import java.util.Scanner;
 
+/**
+ * Tema 02
+ */
+
 public class Main {
     
     public static void main(String[] args) {
@@ -46,7 +50,7 @@ public class Main {
         // Declarar Variables
         // Palabra reservada - nombre - inicializar
         
-        // Numeros:
+        // Números:
             // Enteros: byte, short, int, long
             // Reales: float, double
         // Caracteres: char, string
