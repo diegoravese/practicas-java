@@ -1,4 +1,9 @@
-package com.davante.app.tema07;
+package com.davante.app.tema070809;
+
+/**
+ * @author Diego
+ * @version 1.0
+ */
 
 public class Persona {
 
@@ -28,7 +33,15 @@ public class Persona {
         this.altura = altura;
     }
 
-    // Getters & Setters - Observadores y Modificadores
+    // Constructor por copia
+    public Persona(Persona miPersona){
+        this.nombre = miPersona.getNombre();
+        this.apellido = miPersona.getApellido();
+        this.edad = miPersona.getEdad();
+        this.altura = miPersona.getAltura();
+    }
+
+    // Getters - Observadores
 
     public String getNombre() {
         return nombre;
@@ -46,6 +59,8 @@ public class Persona {
         return altura;
     }
 
+
+    // Setters - Modificadores
     
 
     public void setNombre(String nombre) {
@@ -62,5 +77,16 @@ public class Persona {
 
     public void setAltura(int altura) {
         this.altura = altura;
+    }
+
+    // Método toString
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + '}';
+    }
+
+    // Métodos personalizados
+    public void saludar() {
+        System.out.println("Hola soy una persona");
     }
 }
