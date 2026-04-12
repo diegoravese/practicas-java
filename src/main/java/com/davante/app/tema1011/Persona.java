@@ -5,7 +5,7 @@ package com.davante.app.tema1011;
  *
  * @author diego
  */
-public class Persona {
+public abstract class Persona {
     
     // Atributos
     private String nombre;
@@ -50,9 +50,5 @@ public class Persona {
     
     // Métodos personalizados
     
-    public void saludar(){
-        System.out.println("Hola soy una persona");
-    }
-    
-       
+    public abstract void saludar();
 }

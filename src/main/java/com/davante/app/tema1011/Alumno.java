@@ -10,11 +10,6 @@ public class Alumno extends Persona {
     private int notas;
     
     // Métodos
-
-    public Alumno(int notas) {
-        this.notas = notas;
-    }
-
     public Alumno(int notas, String nombre, int edad) {
         super(nombre, edad);
         this.notas = notas;
@@ -29,7 +24,8 @@ public class Alumno extends Persona {
     public void setNotas(int notas) {
         this.notas = notas;
     }    
-    
+
+    // Métodos personalizados
     @Override
     public void saludar(){
         System.out.println("Hola soy un alumno");

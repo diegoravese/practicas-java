@@ -3,16 +3,17 @@ package com.davante.app.tema1011;
 /**
  *
  * @author diego
- *
+ */
+
 public class ClasePolimorfismo {
    public static void main(String[] args) {
        
        // Creamos un array de tipo Persona
        Persona[] arrayPersonas = new Persona[3]; // [Persona0][Persona1][Persona2]
        
-       Profesor javi = new Profesor; // [Profesor] estático
+       // Profesor javi = new Profesor(); // [Profesor] estático
        
-       Persona a = new Alumno; // [Persona] - Polimorfismo dinámico
+       // Persona a = new Alumno(); // [Persona] - Polimorfismo dinámico
        
        // Creamos Profesores y Alumnos
        arrayPersonas[0] = new Profesor(7000, "Javi", 40);
@@ -23,7 +24,7 @@ public class ClasePolimorfismo {
        for (Persona persona : arrayPersonas) { // Foreach
            
            if (persona instanceof Profesor) {
-               
+
                Profesor profesorTemp = (Profesor) persona; // Casting -> Transformamos la Persona en un Profesor.
                System.out.println("Profesor: " + profesorTemp.getNombre() + ", Sueldo: " + profesorTemp.getSueldo());
            
@@ -37,5 +38,4 @@ public class ClasePolimorfismo {
        
    }
 }
-* 
-* */
+
