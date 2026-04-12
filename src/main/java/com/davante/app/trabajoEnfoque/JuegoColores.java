@@ -133,7 +133,7 @@ public class JuegoColores {
                 if (colorAMover.equals(colorDelBloqueActual) == true) {
                     
                     // Si el color es idéntico, sumamos 1 a nuestra cantidad de bloques disponibles.
-                    bloquesDisponibles = bloquesdisponibles + 1;
+                    bloquesDisponibles = bloquesDisponibles + 1;
                 
                 } else {
                     
@@ -264,7 +264,7 @@ public class JuegoColores {
                 for (int i = 0; i < 3; i++) {
                     // Recorremos los 4 huecos de cada varilla
                     for (int j = 0; j < capacidadMaxima; j++) {
-                        String colorAguardar = varillas[i][j];
+                        String colorAGuardar = varillas[i][j];
                         historial[contadorHistorial][i][j] = colorAGuardar;
                     }
                 }

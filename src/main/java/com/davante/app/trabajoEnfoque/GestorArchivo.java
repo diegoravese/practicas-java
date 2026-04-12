@@ -9,11 +9,11 @@ public class GestorArchivo {
     
     // Atributos:
     
-    private printWriter escritor; // Archivo donde se guarda la partida.
+    // private printWriter escritor; // Archivo donde se guarda la partida.
     
     // Métodos principales:
     
-    public void iniciarGrabación(String ruta) { // Abre el fichero y prepara la escritura.
+    public void iniciarGrabacion(String ruta) { // Abre el fichero y prepara la escritura.
         
     }
     
